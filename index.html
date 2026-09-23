@@ -1,15 +1,5 @@
-<!DOCTYPE html>
-<html lang="ko">
-<head>
-<meta charset="utf-8" />
-<meta name="viewport" content="width=device-width, initial-scale=1" />
-<meta name="description" content="솔트룩스 헤르메스 에이전트 원데이 클래스 교육 운영 안내" />
-<title>헤르메스 에이전트 원데이 클래스</title>
-</head>
-<body style="margin:0;">
-<!-- 맑은소프트 HTML 편집창에 아래 전체를 붙여넣으세요. -->
-<style>
-@import url('https://cdn.jsdelivr.net/gh/orioncactus/pretendard/dist/web/static/pretendard.css');
+<!DOCTYPE html><html lang="ko"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>온톨로지 부트캠프 | 교육 운영 안내</title></head><body style="margin:0"><style>
+@font-face{font-family:Pretendard;src:url('./assets/PretendardVariable.woff2') format('woff2');font-weight:100 900;font-display:swap}
 .salt-guide, .salt-guide * { box-sizing: border-box; }
 .salt-guide { position: relative; left: 50%; width: 100vw; max-width: none !important; margin: 0 0 0 -50vw; padding: 28px 16px 54px; background: #f3f6f4; color: #202327; font-family: Pretendard, 'Pretendard Variable', 'Noto Sans KR', 'Apple SD Gothic Neo', Arial, sans-serif; line-height: 1.7; word-break: keep-all; overflow-x: hidden; }
 .salt-wrap { width: 100%; max-width: 920px; margin: 0 auto; }
@@ -82,131 +72,106 @@
   .salt-grid, .salt-grid-row, .salt-mini { display: block; width: 100%; margin: 0; }
   .salt-mini { margin-top: 10px; }
 }
+
+.salt-guide .salt-hero img{height:auto;object-fit:contain}
+.salt-guide .salt-meta h1{color:#fff;font-size:25px;line-height:1.4;letter-spacing:-.6px;margin:3px 0 14px;font-weight:800}
+.salt-guide .salt-day{margin-top:25px}.salt-guide .salt-day:first-of-type{margin-top:0}
+.salt-guide .salt-day-heading{margin:0 0 12px;padding:14px 17px;border-radius:10px;background:#eef5ff;color:#21436a;font-size:17px;line-height:1.5}
+.salt-guide .salt-day-heading small{display:block;color:#5b718b;font-size:12px;font-weight:500;margin-top:3px}
+.salt-guide .salt-schedule td{vertical-align:top}.salt-guide .salt-schedule td:first-child{width:25%;white-space:nowrap}
+.salt-guide .salt-schedule td strong{display:block}.salt-guide .salt-schedule td small{display:block;margin-top:4px;color:#6a7785;font-size:12px;font-weight:400}
+.salt-guide .salt-faculty{display:grid;grid-template-columns:repeat(3,1fr);gap:12px}
+.salt-guide .salt-person{padding:22px 18px;border:1px solid #dbe4ef;border-radius:14px;background:#f5f8fd}
+.salt-guide .salt-person-label{font-size:12px;font-weight:800;color:#2464b1}
+.salt-guide .salt-person h3{font-size:24px;line-height:1.4;margin:17px 0 4px;letter-spacing:-.5px}
+.salt-guide .salt-person h3 small{font-size:13px;margin-left:4px;font-weight:650}
+.salt-guide .salt-person p{font-size:13px;color:#657386;margin:0;min-height:44px}
+.salt-guide .salt-person-topic{border-top:1px solid #dbe4ef;margin-top:14px;padding-top:14px;font-size:13px;font-weight:650;color:#2a435f}
+.salt-guide .salt-prep-label{color:#2464b1;font-size:12px;font-weight:850;letter-spacing:.06em;margin-bottom:8px}
+.salt-guide .salt-prep-grid{display:grid;grid-template-columns:1fr 1fr;gap:14px}
+.salt-guide .salt-prep-item{padding:20px;border:1px solid #dbe4ef;background:#f5f8fd;border-radius:12px}
+.salt-guide .salt-prep-item h3{font-size:16px;margin:0 0 8px}.salt-guide .salt-prep-item p{font-size:14px;color:#657386;margin:0}
+.salt-guide .salt-prep-note{padding:14px 17px;background:#edf5ff;color:#295782;border-radius:10px;margin-top:14px;font-size:13px}
+.salt-guide .salt-survey button{display:inline-block;margin-top:21px;padding:13px 19px;border:0;border-radius:999px;background:#756822;color:white;font:800 13px Pretendard,sans-serif;cursor:default;opacity:.75}
+.salt-guide .salt-survey .salt-survey-status{font-size:12px;color:#716000;margin:10px 0 0}
+.salt-guide .salt-break td{background:#f2f3f5;color:#657386}
+.salt-guide .salt-summary{display:grid;grid-template-columns:repeat(3,1fr);margin-top:20px;border:1px solid #dce5f3;border-radius:18px;overflow:hidden;background:#fff}
+.salt-guide .salt-summary>div{padding:21px 25px;border-right:1px solid #e3ebf6}.salt-guide .salt-summary>div:last-child{border-right:0}
+.salt-guide .salt-summary span{display:block;font-size:12px;color:#718199;margin-bottom:6px}.salt-guide .salt-summary strong{font-size:17px;color:#18304f;letter-spacing:-.4px}
+.salt-guide .salt-nav{display:flex;gap:8px;flex-wrap:wrap;margin:22px 0 26px}.salt-guide .salt-nav a{padding:9px 16px;background:white;border:1px solid #dce5f3;border-radius:999px;color:#243e60;font-size:13px;font-weight:750;text-decoration:none}.salt-guide .salt-nav a:hover{background:#eaf3ff;border-color:#76a4e8;color:#165bb8}
+.salt-guide [id]{scroll-margin-top:20px}
+@media(max-width:680px){.salt-guide .salt-summary{grid-template-columns:1fr;border-radius:14px}.salt-guide .salt-summary>div{display:flex;justify-content:space-between;align-items:center;gap:12px;padding:14px 17px;border-right:0;border-bottom:1px solid #e3ebf6}.salt-guide .salt-summary>div:last-child{border-bottom:0}.salt-guide .salt-summary span{font-size:11px;margin:0}.salt-guide .salt-summary strong{font-size:14px}.salt-guide .salt-nav{gap:7px;margin:16px 0 20px}.salt-guide .salt-nav a{font-size:12px;padding:8px 13px}}
+.salt-guide .salt-schedule-intro{margin:-12px 0 20px;color:#667b96;font-size:13px}
+.salt-guide .salt-day{border:1px solid #dce5f1;border-radius:13px;margin-top:14px;overflow:hidden}
+.salt-guide .salt-day summary{display:flex;align-items:center;gap:18px;padding:20px;cursor:pointer;list-style:none;background:#f8faff}.salt-guide .salt-day summary::-webkit-details-marker{display:none}
+.salt-guide .salt-date{min-width:65px;font-size:23px;font-weight:800;color:#1768e8;line-height:1.3}.salt-guide .salt-date small{display:block;font-size:11px;color:#7083a0;font-weight:500;margin-top:4px}
+.salt-guide .salt-day-name{flex:1;font-size:16px;font-weight:750;color:#17304e}.salt-guide .salt-day-name small{display:block;margin-top:5px;font-size:12px;color:#667b96;font-weight:500}
+.salt-guide .salt-expand{font-size:22px;color:#6481a7}.salt-guide details[open] .salt-expand{transform:rotate(45deg)}
+.salt-guide .salt-day .salt-schedule{border:0;border-radius:0;border-collapse:collapse;table-layout:fixed}.salt-guide .salt-day .salt-schedule th{background:#f4f7fc;color:#6a819f;font-size:12px;font-weight:650;text-align:left;padding:12px 20px}.salt-guide .salt-day .salt-schedule th:first-child{width:154px}
+.salt-guide .salt-day .salt-schedule td{padding:14px 20px;border-bottom:0;border-top:1px solid #e9eef5;font-size:13px;color:#1e3859}.salt-guide .salt-day .salt-schedule td:first-child{width:154px;font-size:13px;font-weight:400;color:#667d9c}.salt-guide .salt-day .salt-schedule td small{color:#74869e;line-height:1.7}.salt-guide .salt-day .salt-lunch td{background:#fff9e8}.salt-guide .salt-day .salt-lunch td:first-child{color:#a37c2a}
+.salt-guide .salt-day summary:focus-visible{outline:3px solid #1768e8;outline-offset:-3px}
+@media(max-width:680px){.salt-guide .salt-day summary{padding:16px 12px;gap:12px}.salt-guide .salt-date{min-width:55px;font-size:20px}.salt-guide .salt-day-name{font-size:14px}.salt-guide .salt-day .salt-schedule th{padding:11px 10px}.salt-guide .salt-day .salt-schedule th:first-child{width:104px}.salt-guide .salt-day .salt-schedule td{display:table-cell;width:auto!important;padding:12px 10px;font-size:12px}.salt-guide .salt-day .salt-schedule td:first-child{width:104px!important;font-size:11px;white-space:nowrap}.salt-guide .salt-day .salt-schedule td small{font-size:11px}}
+.salt-guide a:focus-visible{outline:3px solid #146ee3;outline-offset:4px}
+@media(max-width:680px){.salt-guide .salt-meta h1{font-size:21px}.salt-guide .salt-faculty,.salt-guide .salt-prep-grid{grid-template-columns:1fr}.salt-guide .salt-person p{min-height:0}.salt-guide .salt-person h3{margin-top:10px}.salt-guide .salt-day-heading{font-size:15px}.salt-guide .salt-schedule td:first-child{width:100%;white-space:normal}}
+.salt-guide{background:#f1f5fc;color:#14233f;padding:30px 22px 50px;line-height:1.65}
+.salt-wrap{max-width:1080px}
+.salt-guide .salt-hero{box-shadow:0 15px 40px #17335912}
+.salt-guide .salt-meta{padding:25px 32px 28px;background:linear-gradient(110deg,#0a172b,#142e52)}
+.salt-guide .salt-meta h1{font-size:28px}
+.salt-guide .salt-card{padding:32px;margin-top:20px;border:1px solid #dfe6f1;border-radius:20px;box-shadow:none}
+.salt-guide .salt-card h2{font-size:25px;line-height:1.4;letter-spacing:-.9px;color:#142b4b;margin:0 0 23px}
+.salt-guide .salt-eyebrow{font-size:11px;letter-spacing:1.4px;font-weight:800;color:#1768e8;margin-bottom:9px}
+.salt-guide .salt-info>div{padding:15px 0;border-color:#ebeff5}
+.salt-guide .salt-info dt{color:#667b96;font-size:13px}
+.salt-guide .salt-info dd{color:#203451;font-size:14px;font-weight:650}
+.salt-guide .salt-person{background:linear-gradient(145deg,#f2f7ff,#fff);border-color:#dce5f4;padding:23px 20px}
+.salt-guide .salt-person h3{color:#142b4b}
+.salt-guide .salt-person-label{color:#1768e8}
+.salt-guide .salt-prep-item{background:#f7f9fc;border-color:#e2e9f3;border-radius:14px;padding:22px}
+.salt-guide .salt-prep-item h3{color:#17304e}
+.salt-guide .salt-prep-item p{color:#667b96;line-height:1.8}
+.salt-guide .salt-prep-note{padding:22px;border:1px solid #e2e9f3;border-radius:14px;background:#f7f9fc;font-size:14px;line-height:1.8;color:#000}
+.salt-guide .salt-prep-note>strong:first-child{display:block;margin-bottom:8px;font-size:16px;color:#17304e}
+.salt-guide .salt-prep-label{display:none}
+.salt-guide .salt-caption{color:#74869e}
+.salt-guide .salt-venue-intro{margin:-12px 0 24px;color:#74869e;font-size:14px}
+.salt-guide .salt-venue-grid{display:grid;grid-template-columns:1fr 1fr;gap:14px}
+.salt-guide .salt-venue-item{padding:22px;border:1px solid #e2e9f3;border-radius:14px;background:white}
+.salt-guide .salt-venue-item h3{font-size:16px;color:#17304e;margin:0 0 9px}
+.salt-guide .salt-venue-item p{font-size:14px;line-height:1.8;color:#74869e;margin:0}
+.salt-guide .salt-venue-item code{font-family:inherit;padding:2px 6px;border-radius:4px;background:#eef4fe;color:#214a7b}
+.salt-guide .salt-venue-item.wide{grid-column:1/-1;background:#f7f9fc}
+.salt-guide .salt-survey{padding:32px;border-radius:20px;background:#102c51;color:white;box-shadow:none;margin-top:20px}
+.salt-guide .salt-survey h2{font-size:25px;letter-spacing:-.9px}
+.salt-guide .salt-survey-label,.salt-guide .salt-survey .salt-eyebrow{color:#84c8ff}
+.salt-guide .salt-survey p{color:#fff}
+.salt-guide .salt-survey button{background:#294a70;color:#d5e5fa;border:1px solid #6984a6;border-radius:8px;opacity:1;font-weight:600}
+.salt-guide .salt-survey .salt-survey-status{color:#fff}
+.salt-guide .salt-survey>a{background:#fff;color:#14345a!important;border-radius:8px}
+.salt-guide .salt-card p,
+.salt-guide .salt-card .salt-caption,
+.salt-guide .salt-card .salt-prep-note,
+.salt-guide .salt-card .salt-person-topic,
+.salt-guide .salt-summary span,
+.salt-guide .salt-date small,
+.salt-guide .salt-day-name small,
+.salt-guide .salt-day .salt-schedule td,
+.salt-guide .salt-day .salt-schedule td:first-child,
+.salt-guide .salt-day .salt-schedule td strong,
+.salt-guide .salt-day .salt-schedule td small,
+.salt-guide .salt-day .salt-schedule th{color:#000}
+@media(max-width:680px){.salt-guide{padding:18px 12px 32px}.salt-guide .salt-meta{padding:22px}.salt-guide .salt-meta h1{font-size:23px}.salt-guide .salt-card,.salt-guide .salt-survey{padding:23px 18px;border-radius:16px;margin-top:15px}.salt-guide .salt-card h2,.salt-guide .salt-survey h2{font-size:22px}.salt-guide .salt-venue-grid{grid-template-columns:1fr}.salt-guide .salt-venue-item{padding:20px}.salt-guide .salt-person{padding:20px}}
 </style>
+<main class="salt-guide" aria-label="온톨로지 부트캠프 교육 운영 안내"><div class="salt-wrap">
+<div class="salt-hero"><picture><source media="(max-width:680px)" srcset="./assets/mobile-banner.png"><img src="./assets/banner.png" alt="솔트룩스 온톨로지 부트캠프 · 이경일 대표이사, 정용일 부사장, 김재은 상무" /></picture></div>
+<div class="salt-summary"><div><span>교육 일정</span><strong>2026. 09. 29. — 10. 01.</strong></div><div><span>교육 시간</span><strong>매일 09:30–17:30</strong></div><div><span>준비물 · 2·3일차 사용</span><strong>개인 노트북 · 충전기</strong></div></div>
+<nav class="salt-nav" aria-label="교육 안내 바로가기"><a href="#ob-faculty">강사진 소개</a><a href="#ob-schedule">3일 교육 일정</a><a href="#practice-guide">실습 준비</a><a href="#ob-venue">교육장 이용</a><a href="#certificate-guide">수료증 안내</a><a href="#filming-guide">촬영 안내</a><a href="#ob-survey">만족도 조사</a></nav>
+<section class="salt-card" id="ob-faculty"><div class="salt-eyebrow">01</div><h2>강사진 소개</h2><div class="salt-faculty"><article class="salt-person"><div class="salt-person-label">1일차 · 9월 29일(화)</div><h3>이경일<small>대표이사</small></h3><p>솔트룩스 창업자</p><div class="salt-person-topic">온톨로지 · 뉴로-심볼릭 AI<br>데이터 패브릭 · 구축 방법론</div></article><article class="salt-person"><div class="salt-person-label">2일차 · 9월 30일(수)</div><h3>정용일<small>부사장</small></h3><p>온톨로지 기술·구축 총괄</p><div class="salt-person-topic">온톨로지 구축 실습 · AI 연계<br>모델링 · 데이터 변환 · SPARQL</div></article><article class="salt-person"><div class="salt-person-label">3일차 · 10월 1일(목)</div><h3>김재은<small>상무</small></h3><p>AI연구소장 · CTO</p><div class="salt-person-topic">온톨로지 기반 에이전트<br>지식 그라운딩 · 핸즈온 멘토링</div></article></div><div class="salt-caption">※ 3일차 오후 에이전트·도큐먼트 스튜디오 실습은 Labs 연구원이 진행합니다.</div></section>
+<section class="salt-card" id="ob-schedule"><div class="salt-eyebrow">02</div><h2>교육 일정</h2><p class="salt-schedule-intro">일차를 누르면 세부 시간표를 확인할 수 있습니다.</p><details class="salt-day" open><summary><span class="salt-date">09.29<small>화요일</small></span><span class="salt-day-name">1일차 · 온톨로지 개요<small>이경일 대표이사</small></span><span class="salt-expand" aria-hidden="true">+</span></summary><table class="salt-schedule" aria-label="1일차 교육 일정"><thead><tr><th scope="col">시간</th><th scope="col">교육 내용</th></tr></thead><tbody><tr><td>09:30–10:40</td><td><strong>인공지능과 뉴로-심볼릭 AI</strong><small>인공지능 기술 기반과 온톨로지 개념 · 온톨로지와 뉴로-심볼릭 기술의 부상</small></td></tr><tr><td>10:50–12:00</td><td><strong>온톨로지와 데이터 패브릭 플랫폼</strong><small>데이터 파이프라인의 중요성 · 온톨로지 기반 데이터 패브릭 · 온톨로지 파운드리 시스템의 이해</small></td></tr><tr class="salt-lunch"><td>12:00–13:10</td><td><strong>점심시간</strong></td></tr><tr><td>13:10–14:20</td><td><strong>온톨로지 언어와 지식 표현 및 추론</strong><small>지식 표현과 온톨로지 언어 · Cypher, RDF/OWL과 SWRL 등 · 온톨로지 추론의 개념과 활용</small></td></tr><tr class="salt-break"><td>14:20–14:40</td><td><strong>쉬는시간</strong></td></tr><tr><td>14:40–15:50</td><td><strong>온톨로지와 뉴로-심볼릭 시스템 구축 방법론의 이해</strong><small>미들-아웃 온톨로지 구축 방법론 · 솔트룩스 이중나선 구축 방법론 · 구축 방법론 workshop</small></td></tr><tr class="salt-break"><td>15:50–16:00</td><td><strong>쉬는시간</strong></td></tr><tr><td>16:00–17:00</td><td><strong>온톨로지/뉴로-심볼릭 유즈케이스</strong><small>온톨로지 구축 사례들, 기술의 이해 · 각종 국내외 온톨로지 및 뉴로-심볼릭 시스템 구축 사례 소개</small></td></tr><tr><td>17:00–17:30</td><td><strong>마무리 및 질의응답</strong></td></tr></tbody></table></details><details class="salt-day"><summary><span class="salt-date">09.30<small>수요일</small></span><span class="salt-day-name">2일차 · 온톨로지 구축 실습 · AI 연계<small>정용일 부사장</small></span><span class="salt-expand" aria-hidden="true">+</span></summary><table class="salt-schedule" aria-label="2일차 교육 일정"><thead><tr><th scope="col">시간</th><th scope="col">교육 내용</th></tr></thead><tbody><tr><td>09:30–10:30</td><td><strong>온톨로지 기술 요소</strong><small>온톨로지 개념 요약 · RDF, OWL, SPARQL</small></td></tr><tr><td>10:30–11:30</td><td><strong>모델링 실습 1 · 모델개념화</strong><small>ORSD, CQ · 개념과 관계 도출 · 개념모델 구성</small></td></tr><tr><td>11:30–12:30</td><td><strong>모델링 실습 2 · 모델명세화</strong><small>모델링 도구를 통한 모델 구축</small></td></tr><tr class="salt-lunch"><td>12:30–13:30</td><td><strong>점심시간</strong></td></tr><tr><td>13:30–14:30</td><td><strong>데이터변환 실습 1 · 이론</strong><small>변환규칙과 데이터 포맷 이해 · 데이터 변환 도구 설치</small></td></tr><tr><td>14:30–15:30</td><td><strong>데이터변환 실습 2</strong><small>변환규칙 설계 및 데이터 변환</small></td></tr><tr><td>15:30–16:30</td><td><strong>데이터적재 실습</strong><small>저장소 설정 및 사용법</small></td></tr><tr><td>16:30–17:00</td><td><strong>SPARQL 실습</strong><small>SPARQL 작성 및 SPARQL Endpoint 실습</small></td></tr><tr><td>17:00–17:30</td><td><strong>마무리 및 질의응답</strong></td></tr></tbody></table></details><details class="salt-day"><summary><span class="salt-date">10.01<small>목요일</small></span><span class="salt-day-name">3일차 · 부트캠프 핸즈온 · 에이전트 개발<small>김재은 상무 / Labs 연구원</small></span><span class="salt-expand" aria-hidden="true">+</span></summary><table class="salt-schedule" aria-label="3일차 교육 일정"><thead><tr><th scope="col">시간</th><th scope="col">교육 내용</th></tr></thead><tbody><tr><td>09:30–10:30</td><td><strong>온톨로지부터 Agentic AI까지</strong><small>온톨로지와 에이전트 연계 · 파운드리 플랫폼 · 프로젝트 사례</small><small>진행 · 김재은 CTO</small></td></tr><tr><td>10:30–11:30</td><td><strong>온톨로지 기반 에이전트</strong><small>온톨로지 응용을 위한 에이전트 설계 및 구축</small><small>진행 · 김재은 CTO</small></td></tr><tr><td>11:30–12:30</td><td><strong>온톨로지 지식 그라운딩</strong><small>온톨로지 지식 활용 · T2SQL, T2SPARQL</small><small>진행 · 김재은 CTO</small></td></tr><tr class="salt-lunch"><td>12:30–13:30</td><td><strong>점심시간</strong></td></tr><tr><td>13:30–14:30</td><td><strong>에이전트 스튜디오 1</strong><small>에이전트 개발 실습</small><small>진행 · Labs 연구원</small></td></tr><tr><td>14:30–15:30</td><td><strong>에이전트 스튜디오 2</strong><small>에이전트 개발 실습</small><small>진행 · Labs 연구원</small></td></tr><tr><td>15:30–16:30</td><td><strong>에이전트 스튜디오 3</strong><small>에이전트 개발 실습</small><small>진행 · Labs 연구원</small></td></tr><tr><td>16:30–17:00</td><td><strong>도큐먼트 스튜디오</strong><small>비정형 문서 데이터 파이프라인</small><small>진행 · Labs 연구원</small></td></tr><tr><td>17:00–17:30</td><td><strong>마무리 및 질의응답</strong></td></tr></tbody></table></details><div class="salt-caption">※ 교육 운영 상황에 따라 세부 커리큘럼과 시간은 일부 조정될 수 있습니다.</div></section>
+<section class="salt-card" id="practice-guide"><div class="salt-eyebrow">03</div><div class="salt-prep-label">교육 전 필수 준비</div><h2>실습 준비 안내</h2><div class="salt-prep-grid"><div class="salt-prep-item"><h3>개인 노트북 및 충전기 지참</h3><p>개인 노트북은 <strong>2·3일차부터 사용</strong>할 예정입니다.<br>해당 일차에 노트북과 충전기를 함께 지참해 주세요.</p></div><div class="salt-prep-item"><h3>대여 노트북 안내</h3><p><strong>사전에 대여 의사를 회신해 주신 분에 한해</strong><br>대여 노트북을 제공합니다. 실습이 있는 <strong>2·3일차에 제공</strong>합니다.</p></div></div></section>
+<section class="salt-card" id="ob-venue"><div class="salt-eyebrow">04</div><h2>교육장 이용 안내</h2><p class="salt-venue-intro">수업 중 도움이 필요하시면 현장 운영매니저에게 말씀해 주세요.</p><div class="salt-venue-grid"><article class="salt-venue-item"><h3>📶 Wi-Fi 연결</h3><p>SSID &nbsp; <code>Saltlux_Guest</code><br>비밀번호 &nbsp; <code>guest123!@#</code></p></article><article class="salt-venue-item"><h3>🚰 정수기 · 쓰레기통</h3><p>정수기는 교육장 기준 우측 냉장고 옆에 있습니다.<br>쓰레기통은 정수기 아래 또는 남자 화장실 방향을 이용해 주세요.</p></article><article class="salt-venue-item"><h3>🚻 화장실</h3><p>교육장 기준 우측은 여자 화장실, 좌측은 남자 화장실입니다.</p></article><article class="salt-venue-item"><h3>🚭 흡연 안내</h3><p>건물 밖 지정된 외부 흡연구역을 이용해 주세요.</p></article><article class="salt-venue-item wide"><h3>☕ 사내카페 ‘해다미’ 이용 안내</h3><p>해다미는 솔트룩스 임직원을 위한 사내 복지시설입니다.<br>외부 방문객용 결제 시스템이 마련되어 있지 않아 교육 참가자분들의 일반 결제 이용이 어려운 점 양해 부탁드립니다.<br><br>교육 기간 3일 동안 <strong>카페 이용 쿠폰을 제공</strong>합니다.<br>출석 확인 시 받은 쿠폰을 해다미 매니저에게 제출하시면 이용할 수 있습니다.<br>쿠폰을 받지 못하신 분은 현장 운영매니저에게 말씀해 주세요.</p></article></div></section>
+<section class="salt-card" id="certificate-guide"><div class="salt-eyebrow">05</div><h2>수료증 안내</h2><div class="salt-prep-item"><h3>수료증 신청 방법</h3><p>교육 종료 후 수료증 발급을 원하시는 분은 <a href="sms:01089085505"><strong>010-8908-5505</strong></a>로 <strong>이메일 주소 및 소속/성함</strong>을 문자로 남겨 주세요.<br>교육 종료 후 10/2(금) 일괄 발송 예정입니다.</p></div><div class="salt-prep-note"><strong>수료 기준 · 출석률 80% 이상</strong>업무상 사유로 출석 기준을 충족하지 못한 경우, <a href="mailto:edu@saltlux.com">edu@saltlux.com</a>으로<br>업무 일정 캘린더, 출장 내역 등 간단히 확인 가능한 증빙을 보내 주시면 확인 후 수료 처리해 드립니다.<br>개인정보와 업무상 민감한 내용은 가린 후 보내 주세요.</div></section>
+<section class="salt-card" id="filming-guide"><div class="salt-eyebrow">06</div><h2>교육 촬영 및 인터뷰 안내</h2><div class="salt-prep-item"><h3>🎥 교육 중 영상 촬영 안내</h3><p>교육 중 간헐적으로 짧은 영상 촬영이 진행될 예정입니다.<br>수강생 여러분의 뒷모습 위주로 촬영하며, 얼굴이 나오는 경우에는 모자이크 처리할 예정이오니 양해 부탁드립니다.</p></div><div class="salt-prep-item" style="margin-top:14px;"><h3>🎤 3일차 · 교육 만족도 인터뷰</h3><p>교육 3일차에는 교육 만족도 관련 인터뷰 영상 촬영을 진행할 예정입니다.<br><strong>인터뷰에 참여해 주신 분께는 상품권을 지급</strong>할 예정이니, 참여 의사가 있으시면 현장 운영매니저에게 말씀해 주세요.</p></div></section>
+<section class="salt-survey" id="ob-survey"><div class="salt-eyebrow">07</div><h2>교육을 마치신 뒤<br>소중한 의견을 들려주세요.</h2><p>보내주시는 의견은 더 나은 교육 프로그램을 만드는 데 소중히 활용하겠습니다.</p><!-- 만족도 설문: config.json의 surveyUrl에 링크를 입력하고 build.mjs를 실행하면 연결됩니다. --></section>
 
-<div class="salt-guide">
-  <div class="salt-wrap">
-
-    <div class="salt-hero">
-      <img src="./assets/hermes-hero.png" alt="솔트룩스 공개교육 헤르메스 에이전트 원데이 클래스" />
-      <div class="salt-meta">
-        <span>2026. 09. 04. (금) · 09:00–18:00</span>
-        <span>솔트룩스 본사 교육장 · 잠실역 인근</span>
-      </div>
-    </div>
-
-    <div class="salt-card">
-      <h2>교육 안내</h2>
-      <dl class="salt-info">
-        <div><dt>교육명</dt><dd>헤르메스 에이전트 원데이 클래스</dd></div>
-        <div><dt>교육 일시</dt><dd>2026년 9월 4일(금) 09:00–18:00</dd></div>
-        <div><dt>교육 장소</dt><dd>솔트룩스 본사 교육장 · 잠실역 인근</dd></div>
-        <div><dt>준비물</dt><dd>개인 노트북 및 충전기 · ChatGPT Plus 이상 유료 계정</dd></div>
-      </dl>
-    </div>
-
-    <div class="salt-card">
-      <h2>교육 일정</h2>
-      <table class="salt-schedule" border="0" cellspacing="0" cellpadding="0">
-        <tbody>
-          <tr><td>09:00–09:50</td><td>하네스 엔지니어링 · 헤르메스 에이전트</td></tr>
-          <tr><td>10:00–11:30</td><td>설치 및 프로바이더 연결 · 첫 대화와 도구 활성화</td></tr>
-          <tr class="salt-lunch"><td>11:30–13:00</td><td>점심시간</td></tr>
-          <tr><td>13:00–15:50</td><td>업무 파이프라인 실습 · Skill 자동 생성과 재사용</td></tr>
-          <tr><td>16:00–17:50</td><td>메모리 시스템 · 내 업무 Skill 설계 및 회고</td></tr>
-        </tbody>
-      </table>
-      <div class="salt-caption">※ 교육 진행 상황에 따라 세부 시간은 일부 조정될 수 있습니다.</div>
-    </div>
-
-    <div class="salt-card salt-gpt">
-      <table class="salt-gpt-table" border="0" cellspacing="0" cellpadding="0">
-        <tbody>
-          <tr>
-            <td class="salt-gpt-image">
-              <table class="salt-tool-logos" border="0" cellspacing="0" cellpadding="0">
-                <tbody>
-                  <tr>
-                    <td>
-                      <img src="./assets/chatgpt-logo.png" alt="ChatGPT 로고" />
-                      <div class="salt-tool-name">ChatGPT</div>
-                    </td>
-                    <td>
-                      <img src="./assets/codex-logo.png" alt="Codex 로고" />
-                      <div class="salt-tool-name">Codex</div>
-                    </td>
-                  </tr>
-                </tbody>
-              </table>
-            </td>
-            <td class="salt-gpt-copy">
-              <div class="salt-label">교육 전 필수 준비</div>
-              <h2>ChatGPT 유료 계정을<br />준비해 주세요.</h2>
-              <p>교육에는 ChatGPT 유료 기능을 활용하는 실습이 포함됩니다. 수업 시작 전 가입과 결제를 완료해 주세요.</p>
-              <div class="salt-checks">
-                <div class="salt-check"><b>✓</b>&nbsp; ChatGPT Plus 이상 유료 플랜</div>
-                <div class="salt-check"><b>✓</b>&nbsp; 현장에서 로그인 가능한 개인 계정</div>
-                <div class="salt-check"><b>✓</b>&nbsp; 로그인 인증에 필요한 이메일 또는 휴대전화</div>
-              </div>
-              <div class="salt-note">무료 플랜은 사용량 및 일부 기능 제한으로 실습이 원활하지 않을 수 있습니다.</div>
-              <a class="salt-gpt-link" href="https://chatgpt.com/" target="_blank" rel="noopener noreferrer">ChatGPT 바로가기&nbsp; →</a>
-            </td>
-          </tr>
-        </tbody>
-      </table>
-    </div>
-
-    <div class="salt-card">
-      <h2>교육장 운영사항</h2>
-      <div class="salt-grid">
-        <div class="salt-grid-row">
-          <div class="salt-mini">
-            <div class="salt-mini-title">📶 Wi-Fi</div>
-            <p><strong>SSID</strong>&nbsp;&nbsp;Saltlux_Guest<br /><strong>PW</strong>&nbsp;&nbsp;guest123!@#</p>
-          </div>
-          <div class="salt-mini">
-            <div class="salt-mini-title">🚰 정수기 · 쓰레기통</div>
-            <p>정수기는 교육장 기준 우측 냉장고 옆,<br />쓰레기통은 정수기 아래 또는 남자 화장실 방향에 있습니다.</p>
-          </div>
-        </div>
-        <div class="salt-grid-row">
-          <div class="salt-mini">
-            <div class="salt-mini-title">🚻 화장실</div>
-            <p>교육장 기준 우측은 여자 화장실, 좌측은 남자 화장실입니다.</p>
-          </div>
-          <div class="salt-mini">
-            <div class="salt-mini-title">🚭 흡연 안내</div>
-            <p>흡연은 건물 밖 지정된 외부 흡연구역을 이용해 주세요.</p>
-          </div>
-        </div>
-      </div>
-      <div class="salt-cafe">
-        <div class="salt-cafe-title">☕ 사내카페 ‘해다미’ 이용 안내</div>
-        <p>해다미는 솔트룩스 임직원을 위한 사내 복지시설입니다.<br />외부 방문객용 결제 시스템이 마련되어 있지 않아 교육 참가자분들의 이용이 어려운 점 너른 양해 부탁드립니다.</p>
-      </div>
-    </div>
-
-    <div class="salt-survey">
-      <div class="salt-survey-label">AFTER THE CLASS</div>
-      <h2>교육을 마치신 뒤<br />소중한 의견을 들려주세요.</h2>
-      <p>보내주시는 의견은 더 나은 교육 프로그램을 만드는 데 소중히 활용하겠습니다. 설문은 약 5분 내외로 참여하실 수 있습니다.</p>
-      <a href="https://forms.gle/rVFyoYdZYBBzpvDR8" target="_blank" rel="noopener noreferrer">교육 만족도 조사 참여하기&nbsp; →</a>
-      <div class="salt-contact">● 별도의 수료증이 필요하신 분들은 <strong>운영매니저에게 말씀주시거나 010-8908-5505로 연락 부탁드립니다.</strong></div>
-    </div>
-
-<div class="salt-card" style="background:#eff9f1; border-color:#cde5d4;">
-      <div style="color:#238440; font-size:14px; font-weight:800; margin-bottom:10px;">찾아가는 기업 맞춤형 AX교육</div>
-      <h2 style="margin-bottom:14px; line-height:1.4;">우리 회사에서도<br />맞춤형 AX교육을 받아보고 싶다면?</h2>
-      <p style="margin:0; color:#496650; font-size:16px; line-height:1.8;">솔트룩스가 기업으로 직접 찾아갑니다.<br />우리 회사의 직무와 업무에 맞춘 실습형 AX교육을 원하는 장소와 일정에 맞춰 받아보세요.<br /><strong style="color:#174322;">교육비 90~95% 환급 혜택으로 비용 부담까지 줄일 수 있습니다.</strong></p>
-      <div style="display:flex; flex-wrap:wrap; gap:10px; margin-top:22px;">
-        <a href="https://edu.saltlux.com/main/page.jsp?code=edu&amp;ln=edu" target="_blank" rel="noopener noreferrer" style="display:inline-block; padding:13px 20px; border:1px solid #b6d5be; border-radius:999px; background:#ffffff; color:#174322; font-size:14px; font-weight:800; text-decoration:none;">사업 소개 자세히 보기 ↗</a>
-        <a href="https://saltlux-refund-check.vercel.app/" target="_blank" rel="noopener noreferrer" style="display:inline-block; padding:13px 20px; border:1px solid #174322; border-radius:999px; background:#174322; color:#ffffff; font-size:14px; font-weight:800; text-decoration:none;">우리 기업 환급대상 확인하기 →</a>
-      </div>
-      <div style="margin-top:14px; color:#67796c; font-size:13px;">※ 환급 여부 및 비율은 기업·참여자 요건과 사업 기준에 따라 달라질 수 있습니다.</div>
-    </div>
-
-  </div>
-</div>
-<!-- 맑은소프트 붙여넣기 끝 -->
-</body>
-</html>
+</div></main></body></html>
